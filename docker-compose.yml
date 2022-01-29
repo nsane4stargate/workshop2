@@ -17,7 +17,7 @@ services:
       - DB_PORT=5432
       - DATABASE=postgres
       - VIRTUAL_HOST=ec2-107-22-215-70.compute-1.amazonaws.com
-      - VIRTUAL_PORT=8000
+      - VIRTUAL_PORT=5432
   nginx:
     build: ./nginx
     image: 285631472428.dkr.ecr.us-east-1.amazonaws.com/workshop2:workshop2_nginx
